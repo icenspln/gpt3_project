@@ -1,5 +1,7 @@
 /** @format */
 
+import "./App.css";
+
 import {
   Header,
   Footer,
@@ -14,7 +16,7 @@ import { CTA, Brand, Navbar } from "./components";
 function App() {
   return (
     <div className="App">
-      <div className="gradient-bg">
+      <div className="gradient__bg">
         <Navbar />
         <Header />
       </div>
