@@ -2,7 +2,7 @@
 
 import "./features.css";
 function Features() {
-  return <>features</>;
+  return <div>features</div>;
 }
 
 export default Features;

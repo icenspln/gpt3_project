@@ -3,7 +3,7 @@
 import "./possibility.css";
 
 function Possibility() {
-  return <>Possibility</>;
+  return <div>Possibility</div>;
 }
 
 export default Possibility;
