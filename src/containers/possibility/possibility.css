@@ -1,0 +1,43 @@
+/** @format */
+
+.possibility {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.possibility__image {
+  flex-basis: 40%;
+}
+.possibility__text {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.possibility__request {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #71e5ff;
+}
+.possibility__header {
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+}
+.possibility__disc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text);
+}
+.possibility__request--second {
+  color: var(--color-subtext);
+}
+@media (max-width: 1050px) {
+  .possibility {
+    flex-direction: column;
+  }
+}
