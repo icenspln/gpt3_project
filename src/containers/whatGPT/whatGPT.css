@@ -1,0 +1,109 @@
+/** @format */
+
+.GPT {
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.GPT__what-is {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.GPT__disc {
+  flex-basis: 65%;
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+}
+
+.GPT__heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.GPT__heading h1 {
+  flex-basis: 40%;
+}
+.GPT__heading span {
+  color: var(--color-subtext);
+}
+
+.GPT__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.GPT__card-header {
+  margin-bottom: 3rem;
+}
+.GPT__card-disc {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+}
+@media (max-width: 1050px) {
+  .GPT__what-is {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .GPT__heading {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .GPT__card:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+  .GPT__card-header {
+    margin-bottom: 2rem;
+  }
+}

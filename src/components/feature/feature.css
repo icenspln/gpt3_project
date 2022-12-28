@@ -1,1 +1,17 @@
 /** @format */
+
+.feature {
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  position: relative;
+}
+.feature::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -20px;
+  width: 38px;
+  height: 3px;
+  background: var(--gradient-bar);
+}

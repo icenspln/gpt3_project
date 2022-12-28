@@ -1,0 +1,17 @@
+/** @format */
+
+.brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+@media (max-width: 550px) {
+  .brands {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+}

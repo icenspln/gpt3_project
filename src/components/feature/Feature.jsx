@@ -2,8 +2,8 @@
 
 import "./feature.css";
 
-function Feature() {
-  return <div>feature</div>;
+function Feature(props) {
+  return <div className="feature">{props.children}</div>;
 }
 
 export default Feature;
