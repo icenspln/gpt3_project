@@ -48,24 +48,11 @@
 .navbar__menu svg {
   cursor: pointer;
 }
-.navbar__list--mobile {
-  flex-direction: column;
-  padding: 2rem;
-  background-color: var(--color-footer);
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.navbar__buttons--mobile {
-  display: block !important;
-  text-align: center;
-  margin-block-start: 1rem;
-}
-.navbar__button--mobile {
-  margin: 0;
-  margin-top: 1rem !important;
-}
-@media (max-width: 915px) {
+
+@media (max-width: 1050px) {
+  .navbar__logo {
+    max-width: none;
+  }
   .navbar__list {
     display: none;
   }
@@ -73,18 +60,40 @@
     display: block;
   }
   .navbar__list--mobile {
-    justify-content: flex-end;
     line-height: 2rem;
     border-radius: var(--distance-radius);
     min-width: 213px;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: var(--color-footer);
+    position: absolute;
+    right: 0;
+    top: 30px;
+  }
+  .navbar__buttons--mobile {
+    text-align: center;
+    margin-block-start: 1rem;
+    display: none;
+  }
+  .navbar__button--mobile {
+    margin: 0;
+    margin-top: 1rem !important;
+  }
+}
+@media (max-width: 550px) {
+  .navbar {
+    padding: 1.5rem;
+  }
+  .navbar__logo {
+    max-width: 82px;
   }
   .navbar__buttons {
     display: none;
   }
   .navbar__buttons--mobile {
-    display: block !important;
+    display: block;
   }
-  .navbar__button--mobile {
-    margin: 0;
+  .navbar__list--mobile {
+    top: 10px;
   }
 }
