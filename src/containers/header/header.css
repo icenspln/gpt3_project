@@ -59,6 +59,7 @@
   background-color: var(--color-red);
   border-radius: 0px 5px 5px 0px;
   padding: 1rem;
+  white-space: nowrap;
 }
 .header__visitors {
   display: flex;
@@ -81,6 +82,9 @@
     line-height: 65px;
   }
   .header__input {
-    max-width: 200px;
+    min-width: 150px;
+  }
+  .header__submit {
+    padding: 0.5rem;
   }
 }

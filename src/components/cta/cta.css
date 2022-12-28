@@ -1,0 +1,41 @@
+/** @format */
+
+.CAT {
+  background: var(--gradient-text);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10.7236px;
+  gap: 3rem;
+}
+.CAT__request {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+}
+.CAT__heading {
+  font-weight: 800;
+
+  line-height: 45px;
+}
+.CAT__action {
+  flex-basis: 40%;
+}
+.CAT__button {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 40px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+@media (max-width: 1050px) {
+  .CAT {
+    flex-direction: column;
+  }
+}
