@@ -24,7 +24,7 @@ function Navbar() {
         <a href="#features">Case Studies</a>
       </li>
       <li>
-        <a href="#">Library</a>
+        <a href="#library">Library</a>
       </li>
     </>
   );

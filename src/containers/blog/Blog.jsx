@@ -10,7 +10,7 @@ import "./blog.css";
 function Blog() {
   return (
     <>
-      <div className="blog section__margin section__padding">
+      <div className="blog section__margin section__padding" id="library">
         <h1 className="blog__heading gradient__text">
           A lot is happening, We are blogging about it.
         </h1>
