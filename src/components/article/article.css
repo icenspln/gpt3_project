@@ -1,0 +1,19 @@
+/** @format */
+
+.article {
+  display: flex;
+  flex-direction: column;
+}
+
+.article__body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: flex-start;
+  padding: 2rem;
+  background-color: var(--color-blog);
+}
+.article__read {
+  margin-top: auto;
+}
