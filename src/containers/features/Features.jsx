@@ -5,7 +5,7 @@ import "./features.css";
 function Features() {
   return (
     <>
-      <div className="features section__margin section__padding">
+      <div className="features section__margin section__padding" id="features">
         <div className="features__heading">
           <h1 className="features__heading-text gradient__text ">
             The Future is Now and You Just Need To Realize It. Step into Future

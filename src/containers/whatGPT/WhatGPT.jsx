@@ -6,7 +6,7 @@ import "./whatGPT.css";
 function WhatGPT() {
   return (
     <>
-      <div className="GPT section__margin section__padding">
+      <div className="GPT section__margin section__padding" id="whatGPT">
         <div className="GPT__what-is">
           <Feature>What is GPT-3</Feature>
           <div className="GPT__disc">

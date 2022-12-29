@@ -12,16 +12,16 @@ function Navbar() {
   const Menu = () => (
     <>
       <li>
-        <a href="#">Home</a>
+        <a href="#home">Home</a>
       </li>
       <li>
-        <a href="#">What is GPT?</a>
+        <a href="#whatGPT">What is GPT?</a>
       </li>
       <li>
-        <a href="#">Open AI</a>
+        <a href="#possibility">Open AI</a>
       </li>
       <li>
-        <a href="#">Case Studies</a>
+        <a href="#features">Case Studies</a>
       </li>
       <li>
         <a href="#">Library</a>

@@ -32,6 +32,9 @@ body {
   color: white;
   scroll-behavior: smooth;
 }
+html {
+  scroll-behavior: smooth;
+}
 .gradient__bg {
   /* ff 3.6+ */
   background: -moz-radial-gradient(circle at 3% 25%, #002853 0%, #040c18 100%);

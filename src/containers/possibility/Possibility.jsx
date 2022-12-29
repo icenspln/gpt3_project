@@ -7,7 +7,10 @@ import img from "../../assets/possibility.png";
 function Possibility() {
   return (
     <>
-      <div className="possibility gradient__bg section__padding">
+      <div
+        className="possibility gradient__bg section__padding"
+        id="possibility"
+      >
         <div className="possibility__image">
           <img src={img} alt="" />
         </div>
